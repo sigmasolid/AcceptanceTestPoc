@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcceptanceTestPoc.Api1", "AcceptanceTestPoc.Api1\AcceptanceTestPoc.Api1.csproj", "{A8E7131B-4172-4F07-ACBC-9107942B49AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcceptanceTestPoc.Tests.Acceptance", "AcceptanceTestPoc.Tests.Acceptance\AcceptanceTestPoc.Tests.Acceptance.csproj", "{F93AD96F-7FEF-4A9D-A6A1-6114486864FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{AD4CB993-0BA5-4EF5-8B2E-C7294FB12E7C}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8E7131B-4172-4F07-ACBC-9107942B49AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E7131B-4172-4F07-ACBC-9107942B49AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E7131B-4172-4F07-ACBC-9107942B49AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E7131B-4172-4F07-ACBC-9107942B49AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F93AD96F-7FEF-4A9D-A6A1-6114486864FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F93AD96F-7FEF-4A9D-A6A1-6114486864FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F93AD96F-7FEF-4A9D-A6A1-6114486864FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F93AD96F-7FEF-4A9D-A6A1-6114486864FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

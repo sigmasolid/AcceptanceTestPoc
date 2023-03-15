@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+    webapi:
+      build:
+        context: .
+        dockerfile: AcceptanceTestPoc.Api1/Dockerfile
+      ports:
+        - "5000:80"
+        - "5001:443"
