@@ -13,9 +13,8 @@ public class DockerControllerHooks
     private static ICompositeService _compositeService;
     private IObjectContainer _objectContainer;
 
-    public DockerControllerHooks(ICompositeService compositeService, IObjectContainer objectContainer)
+    public DockerControllerHooks(IObjectContainer objectContainer)
     {
-        _compositeService = compositeService;
         _objectContainer = objectContainer;
     }
 
