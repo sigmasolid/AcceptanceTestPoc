@@ -5,5 +5,4 @@ services:
         context: .
         dockerfile: AcceptanceTestPoc.Api1/Dockerfile
       ports:
-        - "5000:80"
-        - "5001:443"
+        - "59999:80"
